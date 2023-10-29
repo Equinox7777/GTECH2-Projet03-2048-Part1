@@ -1,2 +1,2 @@
 # GTECT2 Projet 03
-# Jeu du 2048 version console
+Jeu du 2048 version console
