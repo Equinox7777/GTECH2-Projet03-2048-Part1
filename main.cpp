@@ -1,15 +1,15 @@
+#include "input.h"
+#include "conWD.h"
+
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
 #include <ctime>
 
-#include "input.h"
-#include "conWD.h"
-//#include "random.h"
 using namespace std;
 
 //The game 
-/*
+
 #include "grid.h"
 int main()
 {
@@ -23,7 +23,7 @@ int main()
     {
         
         bool aMove = false;
-        string Usermove = myInput.getUserInput();//on récupère la touche préssé par le joueur
+        string Usermove = myInput.getUserInput();//on rÃ©cupÃ¨re la touche prÃ©ssÃ© par le joueur
 
         
         if (Usermove == "z")
@@ -46,7 +46,7 @@ int main()
         myGrid.restartUp();
         if (aMove == true)
         {
-            myGrid.updateGrid();//génère un nouveau chiffre dans la grille
+            myGrid.updateGrid();//gÃ©nÃ¨re un nouveau chiffre dans la grille
             
         }
 
@@ -80,50 +80,50 @@ int main()
 
     return 0;
 }
-*/
+
 
 //for test
 
-#include "test.h"
+// #include "test.h"
 
-int main()
-{
-    Test myTest;
+// int main()
+// {
+//     Test myTest;
 
-    struct TestResult {
-        string name;
-        bool result;
-    };
+//     struct TestResult {
+//         string name;
+//         bool result;
+//     };
 
-    // Je fais un tableau pour mes test
-    TestResult testResults[] = {
-        { "Test1", myTest.Test1() },
-        { "Test2", myTest.Test2() },
-        { "Test3", myTest.Test3() },
-        { "Test4", myTest.Test4() },
-        { "Test5", myTest.Test5() },
-        { "Test6", myTest.Test6() },
-        { "Test7", myTest.Test7() },
-        { "Test8", myTest.Test8() },
-        { "Test9", myTest.Test9() },
-        { "Test10", myTest.Test10() },
-        { "Test11", myTest.Test11() },
-        { "Test12", myTest.Test12() },
+//     // Je fais un tableau pour mes test
+//     TestResult testResults[] = {
+//         { "Test1", myTest.Test1() },
+//         { "Test2", myTest.Test2() },
+//         { "Test3", myTest.Test3() },
+//         { "Test4", myTest.Test4() },
+//         { "Test5", myTest.Test5() },
+//         { "Test6", myTest.Test6() },
+//         { "Test7", myTest.Test7() },
+//         { "Test8", myTest.Test8() },
+//         { "Test9", myTest.Test9() },
+//         { "Test10", myTest.Test10() },
+//         { "Test11", myTest.Test11() },
+//         { "Test12", myTest.Test12() },
         
-    };
+//     };
 
-    for (const TestResult& test : testResults) {
-        cout << "Test '" << test.name << "': ";
-        if (test.result) {
-            cout << "Succes" << endl;
-        }
-        else {
-            cout << "Echec" << endl;
-        }
-    }
+//     for (const TestResult& test : testResults) {
+//         cout << "Test '" << test.name << "': ";
+//         if (test.result) {
+//             cout << "Succes" << endl;
+//         }
+//         else {
+//             cout << "Echec" << endl;
+//         }
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
