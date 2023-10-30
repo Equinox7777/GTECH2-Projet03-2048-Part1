@@ -1,6 +1,6 @@
-#pragma once
-
 #include "case.h"
+
+#pragma once
 
 #define SIZE 4
 
