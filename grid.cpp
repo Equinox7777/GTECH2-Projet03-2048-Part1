@@ -1,9 +1,10 @@
+#include "grid.h"
+
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
 #include <ctime>
 #include <string>
-#include "grid.h"
 
 using namespace std;
 
